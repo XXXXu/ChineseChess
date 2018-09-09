@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/desk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_chess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="中国象棋"
+        android:textColor="#DDFF0000"
+        android:textSize="60dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_chess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:background="#DDFAEBD7"
+        android:textColor="#FF8C00"
+        android:padding="15dp"
+        android:text="寻找对手"
+        android:textSize="30dp" />
+
+</RelativeLayout>
